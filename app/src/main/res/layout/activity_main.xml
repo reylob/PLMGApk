@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@color/purple"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wave_shape_bottom"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageView_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="180dp"
+                app:srcCompat="@drawable/img_plmg_logo" />
+
+            <TextView
+                android:id="@+id/textView_app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView_logo"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/textView_main_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_main_head1"
+                android:layout_marginTop="1dp"
+                android:text="Progamming Language Memory Game App"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <TextView
+                android:id="@+id/textView_main_head1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_app_name"
+                android:layout_marginTop="5dp"
+                android:text="Welcome\nto"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_main_head"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="Login" />
+
+            <TextView
+                android:id="@+id/textView_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_login"
+                android:layout_marginTop="30dp"
+                android:text="Do not have an account?"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/textView_register_link"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_register"
+                android:layout_centerHorizontal="true"
+                android:text="@string/register"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

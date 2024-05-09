@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPaused">#EF0000</color>
+    <color name="red">#FF0000</color>
+    <color name="lime">#00ff00</color>
+    <color name="dark_green">#006400</color>
+    <color name="colorUnpaused">#448AFF</color>
+    <color name="splash_background">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="md">#00B8D4</color>
+    <color name="md1">#00C853</color>
+    <color name="md2">#FFAB00</color>
+    <color name="md3">#304FFE</color>
+    <color name="md4">#E97052</color>
+    <color name="md5">#747474</color>
+    <color name="purple">#8692f7</color>
+    <color name="lavender">#8692f7</color>
+    <color name="button_pressed_color">#FF5722</color>
+    <color name="button_normal_color">#2196F3</color>
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+    <color name="winBackgroundColor">#00FF00</color>
+    <color name="maroon">#800000</color>
+    <color name="dark_maroon">#400000</color>
+    <color name="orange">#FFA500</color>
+    <color name="dark_orange">#FF8C00</color>
+</resources>
